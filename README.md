@@ -102,4 +102,5 @@ C:\work\to_nishiwaki_encoded\
 バイナリ・自動判定不能・出力文字コードへ変換不能のファイルも
 元の内容のまま出力フォルダへコピーします。
 
-python -m PyInstaller --clean --windowed --icon=1790323665687.ico --name=EncodingConverter main.py
+
+python -m PyInstaller --clean --noconfirm --onefile --windowed --icon=app.ico --name=EncodingConverter main.py
